@@ -4,7 +4,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 25vh 10px 1.8fr 1fr 1fr;
+    grid-template-rows: 25vh 15px 1.8fr 1fr 1fr;
 }
 
 .description {
@@ -13,6 +13,7 @@ body {
     font-size: 23px;
     grid-row: 2/3;
     font-family: "HelveticaNeue", "Helvetica Neue";
+    margin-right: 12px;
 }
 
 .title {
@@ -37,8 +38,48 @@ body {
     height: 75px;
     width: 170px;
     font-size: 22px;
+    background-color: white;
     color: #f07167;
     font-family: "HelveticaNeue-Thin", "Helvetica Neue";
     vertical-align: middle;
     padding-top: 22px;
+    margin: 0 10px;
+    border-radius: 0;
+}
+
+#navbarNav {
+    justify-content: right;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+
+.bg-light {
+    background-color: #fed9b7;
+}
+
+@media (max-width: 767px) {
+    .container {
+        grid-template-rows: 15vh 20px 0.8fr 1fr 0.2fr;
+    }
+    .buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .custom{
+        margin: 10px 0;
+    }
+    .description {
+        font-size: 20px;
+    }
+    .title {
+        margin-bottom: 0;
+        font-size: 60px;
+    }
 }
