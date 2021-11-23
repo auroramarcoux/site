@@ -1,8 +1,8 @@
 body {
-    background-color: #fed9b7;
+    background-color: white;
 }
 
-.container {
+.container#home{
     display: grid;
     grid-template-rows: 25vh 15px 1.8fr 1fr 1fr;
 }
@@ -47,25 +47,8 @@ body {
     border-radius: 0;
 }
 
-#navbarNav {
-    justify-content: right;
-}
-
-.navbar {
-    display: flex;
-    justify-content: right;
-}
-
-.navbar-expand-lg {
-    justify-content: space-between;
-}
-
-.bg-light {
-    background-color: #fed9b7;
-}
-
 @media (max-width: 767px) {
-    .container {
+    .container#home {
         grid-template-rows: 15vh 20px 0.8fr 1fr 0.2fr;
     }
     .buttons {
@@ -81,5 +64,92 @@ body {
     .title {
         margin-bottom: 0;
         font-size: 60px;
+    }
+}
+
+#navbarNav {
+    justify-content: right;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-nav {
+    margin-right: 18%;
+    gap: 55px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: "HelveticaNeue-Thin", "Helvetica Neue";
+}
+
+.nav-item {
+    color: #f07167!important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #98423c!important;
+}
+
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    margin-left: 10%;
+    font-size: 35px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue";
+    letter-spacing: 7px;
+    color: #0081a7!important;
+}
+
+.bg-light {
+    background-color: #fed9b7!important;
+}
+
+.heading {
+    text-align: center;
+    color: #0081a7;
+    font-size: 50px;
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+    letter-spacing: 18px;
+    padding-bottom: 25px;
+}
+
+.container#skills {
+    display: grid;
+    grid-template-rows: 0.9fr 1fr;
+}
+
+.row-cols-6#top {
+    grid-row: 1/2;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 10%;
+}
+
+.row-cols-6#btm {
+    grid-row: 2/3;
+}
+
+.col-md-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
     }
 }
