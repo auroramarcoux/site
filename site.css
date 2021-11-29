@@ -183,7 +183,7 @@ body {
 }
 
 .list-group-item {
-    background-color: #FDFCDC;
+    background-color: #E3E3E2;
     color:#F07167;
     letter-spacing: 3px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue";
@@ -287,4 +287,69 @@ body {
     padding-top: 20%;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 17px 17px #F07167;
+}
+
+.contact-form {
+    position: relative;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    height: 25rem;
+    padding: 20px;
+    width: 60%;
+    background-color: #FDFCDC;
+    border-radius: 0;
+    box-shadow: 17px 17px #F07167;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.cont{
+    align-items: flex-start;
+    padding-left: 5px;
+} 
+
+label {
+    font-size: 25px;
+    color: #f07167;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue";;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+}
+
+input {
+    height: 45px;
+}
+
+.form-control {
+    font-size: 25px;
+    background-color: #fed9b7;
+    border: none;
+    border-radius: 0;
+}
+
+.submit {
+    height: 50px;
+    padding: 0;
+    background-color: #f07167;
+    color: #FDFCDC;
+    border: none;
 }
