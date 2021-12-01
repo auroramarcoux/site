@@ -71,6 +71,7 @@ body {
     }
     .buttons {
         flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
     }
     .custom{
@@ -97,7 +98,7 @@ body {
 .navbar-nav {
     margin-right: 18%;
     gap: 55px;
-    font-size: 25px;
+    font-size: 23px;
     letter-spacing: 3px;
     font-family: "HelveticaNeue-Thin", "Helvetica Neue";
 }
@@ -116,7 +117,7 @@ body {
 
 .navbar-brand {
     margin-left: 10%;
-    font-size: 35px;
+    font-size: 30px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue";
     letter-spacing: 7px;
     color: #FFFFFD!important;
@@ -129,7 +130,7 @@ body {
 .heading {
     text-align: center;
     color: #6E6E6E;
-    font-size: 50px;
+    font-size: 45px;
     font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
     letter-spacing: 18px;
     padding-bottom: 25px;
@@ -174,20 +175,20 @@ body {
 
 .card-text {
     line-height: 40px;
-    font-size: 18px;
+    font-size: 15px;
     color: #707070;
     font-family: "HelveticaNeue-Light", "Helvetica Neue";
 }
 
 .card-title {
-    font-size: 25px;
+    font-size: 22px;
     color:#161B33;
     letter-spacing: 3px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue";
 }
 
 .card-subtitle {
-    font-size: 22px;
+    font-size: 20px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue";
 }
 
@@ -202,7 +203,7 @@ body {
 }
 
 .class {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .pink {
@@ -316,8 +317,8 @@ body {
 }
 
 .educ {
-    width: 225px;
-    height: 225px;
+    width: 200px;
+    height: 200px;
     display: table;
 }
 
