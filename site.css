@@ -4,6 +4,7 @@ body {
     background-attachment: fixed; 
     background-repeat: no-repeat; 
     background-size: cover;
+    margin: 0 50px;
 }
 
 .container#home{
@@ -84,6 +85,7 @@ body {
         margin-bottom: 0;
         font-size: 60px;
     }
+
 }
 
 #navbarNav {
@@ -200,6 +202,7 @@ body {
     background-color: #EBEBE8;
     border: none;
     border-radius: 0;
+    margin-bottom: 15%;
 }
 
 .class {
@@ -265,10 +268,17 @@ body {
     grid-template-rows: 0.9fr 1fr;
 }
 
-.row-cols-6 {
-    display: inline-flex;
-    justify-content: space-between;
+.row#education {
+    display: flex;
     align-items: flex-start;
+}
+
+.e {
+    justify-content: space-between;
+}
+
+.c {
+    justify-content: space-between;
 }
 
 .proj-1 {
@@ -320,6 +330,11 @@ body {
     width: 200px;
     height: 200px;
     display: table;
+}
+
+.educ-1 {
+    width: 500px;
+    height: 200px;
 }
 
 .col-md-3 {
@@ -396,4 +411,38 @@ input {
     background-color: #EA8F88;
     color: #FDFCDC;
     border: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 23px;
+        margin-left: 5%;
+    }
+    .educ {
+        width: 150px;
+        height: 150px;
+        display: table;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .pink {
+        box-shadow: 13px 13px #EA8F88;
+    }
+    .orange {
+        box-shadow: 13px 13px #FED9B7;
+    }
+    .yellow {
+        box-shadow: 13px 13px #FCFACA;
+    }
+    .blue {
+        box-shadow: 13px 13px #86B8BA;
+    }
+    .card-text {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .e {
+        justify-content: center;
+    }
 }
