@@ -549,6 +549,10 @@ input {
     .c {
         margin: 0;
     }
+    .card-img-top {
+        width: 250px;
+        height: 125px;
+    }
 }
 
 @media (max-width: 414px) {
