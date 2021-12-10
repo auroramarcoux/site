@@ -554,7 +554,7 @@ input {
     }
     .card-img-top {
         width: 150px;
-        height: fit-content;
+        height: 75px;
     }
     .col-md-6 {
         align-items: flex-start;
