@@ -446,10 +446,10 @@ input {
         width: 100%;
     }
     .first {
-        margin-left: 43%;
+        margin: 0 20%;
     }
     .second {
-        margin-left: 43%;
+        margin: 0 20%;
     }
 }
 
@@ -475,18 +475,13 @@ input {
     .col-md-6 {
         align-items: flex-end;
         margin: 0;
-    }/* 
-    .project {
-        width: 24rem;
-        height: 200px;
     }
-    .card-title {
-        font-size: 18px;
+    .first {
+        margin: 0 20%;
     }
-    .card-text {
-        line-height: 20px;
-        font-size: 13px;
-    } */
+    .second {
+        margin: 0 20%;
+    }
 }
 
 @media (max-width: 900px) {
