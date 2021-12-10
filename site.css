@@ -98,7 +98,7 @@ body {
 }
 
 .navbar-nav {
-    margin-right: 18%;
+    /*margin-right: 18%;*/
     gap: 55px;
     font-size: 23px;
     letter-spacing: 3px;
@@ -107,6 +107,7 @@ body {
 
 .nav-item {
     color: #FCD9B7!important;
+    text-align: center;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -115,6 +116,14 @@ body {
 
 .navbar-expand-lg {
     justify-content: space-between;
+}
+
+.navbar-collapse {
+    margin-right: 30px;
+}
+
+.navbar-toggler{
+    margin-right: 30px;
 }
 
 .navbar-brand {
@@ -444,5 +453,8 @@ input {
     }
     .e {
         justify-content: center;
+    }
+    .navbar-collapse {
+        margin-right: 0;
     }
 }
