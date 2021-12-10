@@ -445,6 +445,12 @@ input {
         align-items: center;
         width: 100%;
     }
+    .first {
+        margin-left: 43%;
+    }
+    .second {
+        margin-left: 43%;
+    }
 }
 
 
@@ -466,9 +472,24 @@ input {
     .c {
         margin: 0 12%;
     }
+    .col-md-6 {
+        align-items: flex-end;
+        margin: 0;
+    }/* 
+    .project {
+        width: 24rem;
+        height: 200px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-text {
+        line-height: 20px;
+        font-size: 13px;
+    } */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     body {
         margin: 0;
     }
