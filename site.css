@@ -448,7 +448,7 @@ input {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1019px) {
     .e {
         justify-content: center;
     }
@@ -463,10 +463,8 @@ input {
         align-items: center;
         width: 100%;
     }
-    .educ {
-        width: 170px;
-        height: 170px;
-        display: table;
+    .c {
+        margin: 0 12%;
     }
 }
 
@@ -532,6 +530,9 @@ input {
     .row#top {
         flex-direction: column;
     }
+    .c {
+        margin: 0;
+    }
 }
 
 @media (max-width: 414px) {
@@ -545,7 +546,7 @@ input {
         width: 100%;
     }
     .educ-1 {
-        width: fit-content;
+        width: 21.5rem;
     }
     .project {
         width: 21.5rem;
@@ -572,5 +573,8 @@ input {
     }
     .phone-grid {
         padding-top: 75px;
+    }
+    .c {
+        margin: 0;
     }
 }
