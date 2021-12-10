@@ -152,16 +152,11 @@ body {
     grid-template-rows: 0.83fr 1fr;
 }
 
-.row-cols-6#top {
-    grid-row: 1/2;
+.row#top {
     display: inline-flex;
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 10%;
-}
-
-.row-cols-6#btm {
-    grid-row: 2/3;
 }
 
 .col-md-12 {
@@ -177,12 +172,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+/* 
 @media (min-width: 1400px) {
     .container {
         max-width: 1400px;
     }
-}
+} */
 
 .card-text {
     line-height: 40px;
@@ -256,6 +251,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 300px;
+    width: 38rem;
 }
 
 .pj {
@@ -422,7 +418,57 @@ input {
     border: none;
 }
 
+.education {
+    margin-bottom: 10%;
+}
+
+.exp {
+    width: 37rem;
+}
+
+.skills {
+    width: 23rem;
+}
+
+@media (max-width: 1280px) {
+    .e {
+        justify-content: center;
+    }
+    .row#top {
+        flex-direction: column;
+    }
+    #work {
+        align-items: center;
+        width: 100%;
+    }
+    #org {
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .e {
+        justify-content: center;
+    }
+    .row#top {
+        flex-direction: column;
+    }
+    #work {
+        align-items: center;
+        width: 100%;
+    }
+    #org {
+        align-items: center;
+        width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
+    body {
+        margin: 0;
+    }
     .navbar-brand {
         font-size: 23px;
         margin-left: 5%;
@@ -456,5 +502,70 @@ input {
     }
     .navbar-collapse {
         margin-right: 0;
+    }
+    .col-md-6 {
+        align-items: flex-end;
+        margin: 0;
+    }
+    #work {
+        align-items: center;
+        width: 100%;
+    }
+    #org {
+        align-items: center;
+        width: 100%;
+    }
+    .first {
+        margin-left: 43%;
+    }
+    .second {
+        margin-left: 43%;
+    }
+    .heading {
+        text-align: center;
+    }
+    .row#top {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 414px) {
+    .e {
+        justify-content: center;
+    }
+    .heading {
+        font-size: 28px;
+        letter-spacing: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .educ-1 {
+        width: fit-content;
+    }
+    .project {
+        width: 21.5rem;
+        height: 200px;
+    }
+    .card-img-top {
+        width: 150px;
+    }
+    .col-md-6 {
+        align-items: flex-start;
+        margin: 0;
+    }
+    .first {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .exp {
+        width: 21.5rem;
+        margin-left: 0;
+    }
+    .skills {
+        width: 15rem;
+        margin-bottom: 22%;
+    }
+    .phone-grid {
+        padding-top: 75px;
     }
 }
